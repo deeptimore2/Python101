@@ -24,9 +24,29 @@ print(3**2)
 print(3^2)
 ilength=342
 iwidth=56
-strFavoriateColor = input("What's Your favouriate color?")
-print("Nice Choice!" + strFavoriateColor )
-print(f"This is the text concatnating with another string :{strFavoriateColor}")
+#strFavoriateColor = input("What's Your favouriate color?")
+#print("Nice Choice!" + strFavoriateColor )print(f"This is the text concatnating with another string :{strFavoriateColor}")
 print(12, 34 ,45,sep="*")
 # create a customer receipt
 print(f"jdshjshf {round(dNum)}")
+strArray = "Hello World!"
+print(strArray[0])
+print(strArray[0:5])
+print(strArray[6:])
+print(strArray[6:-1])
+lMyList = [1,2,3,4,5]
+print(lMyList[2])
+lMyList[2]=33
+print(lMyList[2])
+lMyList.append(5)
+lMyList.append(6)
+print(lMyList)
+lMyList.extend([11,22,44,55])
+print(lMyList)
+lMyList.insert(2,'3Replace')
+print(lMyList)
+lList1=['Banana','Avacado','Grapes']
+lList2=['capsucum','Cauliflower','Carrot']
+
+lConcat = lList1+ lList2
+print(lConcat)
